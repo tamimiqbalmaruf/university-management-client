@@ -40,14 +40,13 @@ const MainLayout: React.FC = () => {
           <h1
             style={{
               color: "white",
-              textAlign: "center",
               height: "4rem",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
             }}
           >
-            TIM University
+            TIM Uni
           </h1>
         </div>
         <Menu
