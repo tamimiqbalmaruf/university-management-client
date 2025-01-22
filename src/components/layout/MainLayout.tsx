@@ -5,6 +5,7 @@ import {
   VideoCameraOutlined,
 } from "@ant-design/icons";
 import { Layout, Menu, theme } from "antd";
+import { Outlet } from "react-router-dom";
 
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -67,7 +68,7 @@ const MainLayout: React.FC = () => {
               borderRadius: borderRadiusLG,
             }}
           >
-            content
+            <Outlet />
           </div>
         </Content>
         <Footer style={{ textAlign: "center" }}>
